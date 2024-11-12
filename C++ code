@@ -1,0 +1,30 @@
+// Olivia Erskine
+// Sept 12 2024
+// C++ code to find average acceleration.
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// variable definitions
+	double v0, v1, t, a;
+
+	// input
+	cout << "Enter the starting velocity v0 :  ";
+	cin >> v0;
+	cout << "Enter the ending velocity v1   :  ";
+	cin >> v1;
+	cout << "Enter the time t               :  ";
+	cin >> t;
+
+	// processing
+	a = (v1 - v0) / t;
+
+	// output
+	cout << " " << endl;
+	cout << "The average acceleration is  " << a << endl;
+	cout << " " << endl;
+
+	return 0;
+}
